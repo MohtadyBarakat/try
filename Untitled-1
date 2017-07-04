@@ -1,0 +1,18 @@
+$("#step img").click(function(){
+        $(this).css({
+            "border-color":"#417bad",
+            "border-style": "solid",
+            "border-width": "3px",
+            "position": "relative",
+            "z-index": "50"});
+    });
+    
+    
+    function mohannad(x){
+        $(this).css({
+            "border-color":"#417bad",
+            "border-style": "solid",
+            "border-width": "3px"});
+        $("#data h3").text(data[x][0]);
+        $("#data p").text(data[x][1]);
+        $("#data img").attr("src",data[x][2])};
